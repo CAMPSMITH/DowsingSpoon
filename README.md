@@ -6,7 +6,7 @@ A neural net model that predicts the success likelyhood of prospective ventures.
 
 ## Overview of the Analysis
 
-The objective of this activity was to develop a model that was effective at predicting the success likelyhood of prospective venture.  Historical data of prior funded entities, their stats and their success was provided.  This data consisted of categorical and numerical metrics.  
+The objective of this activity was to develop a model that was effective at predicting the success likelyhood of prospective ventures.  Historical data of prior funded entities, their stats and their success was provided.  This data consisted of categorical and numerical metrics.  
 
 To prepare the data, non-meaningful columns, such a *Name* and *EIN* were dropped.  **OneHotEncoder** was used to encode categorical fields.  **StandardScaler** was used to scale the data.  The original dataset was split into training and testing datasets.  
 
